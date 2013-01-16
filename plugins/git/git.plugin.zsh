@@ -91,3 +91,10 @@ alias ggpush='git push origin $(current_branch)'
 compdef ggpush=git
 alias ggpnp='git pull origin $(current_branch) && git push origin $(current_branch)'
 compdef ggpnp=git
+
+
+# jh's update
+alias grb='git rebase HEAD~10 -i'
+alias gtmp='git commit -am "tmp"'
+alias gsh='git show'
+alias grsh='git reset HEAD^'
