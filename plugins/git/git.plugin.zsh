@@ -97,4 +97,4 @@ compdef ggpnp=git
 alias grb='git rebase HEAD~10 -i'
 alias gtmp='git commit -am "tmp"'
 alias gsh='git show'
-alias grsh='git reset HEAD^'
+alias grsh='git reset "HEAD^"'
